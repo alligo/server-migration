@@ -1,0 +1,8 @@
+# Note: use UNIX line endings!
+# Copy this file to files.conf and customize
+# These confs backup /var/www/site to /.backup/test/site_datetime.tar.gz, but ignore zips and gz
+
+BACKUP_FILES_NAME=site
+BACKUP_FILES_SOURCE=/var/www/site
+BACKUP_FILES_DESTINY=/.backup/test
+BACKUP_FILES_EXCLUDE=" --exclude='*.zip' --exclude='*.gz' "

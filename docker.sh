@@ -29,23 +29,23 @@ docker_localdump() {
 }
 
 docker_localrestore() {
-  # @todo finish
+  echo "@todo finish"
 }
 
 docker_remotedump() {
-  # @todo finish
+  echo "@todo finish"
 }
 
 docker_remoterestore() {
-  # @todo finish
+  echo "@todo finish"
 }
 
 move_local2remote() {
-  # @todo finish this
+  echo "@todo finish"
 }
 
 move_remote2local() {
-  # @todo finish this
+  echo "@todo finish"
 }
 
 echo "@todo finish me"

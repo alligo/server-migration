@@ -35,7 +35,7 @@ mongo_localdump() {
 }
 
 mongo_localrestore() {
-  # @todo finish this
+  echo "@todo finish"
 }
 
 # mongo_remotedump:
@@ -53,15 +53,15 @@ mongo_remotedump() {
 }
 
 mongo_remoterestore() {
-  # @todo finish this
+  echo "@todo finish"
 }
 
 move_local2remote() {
-  # @todo finish this
+  echo "@todo finish"
 }
 
 move_remote2local() {
-  # @todo finish this
+  echo "@todo finish"
 }
 
 REMOTE_FULLPATH=$REMOTE_MONGO_DESTINY"/"${DATETIME}
