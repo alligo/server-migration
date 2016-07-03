@@ -1,5 +1,5 @@
 # Note: use UNIX line endings!
-# Copy this file to mysql-server-migration.conf and customize
+# Copy this file to mysql.conf and customize
 
 # Change to 1 to only make a local copy of remote content
 BACKUP_ONLY=0

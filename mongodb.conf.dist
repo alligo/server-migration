@@ -1,0 +1,18 @@
+# Note: use UNIX line endings!
+# Copy this file to mongdb.conf and customize
+
+# Mode
+#    0: local backup
+MODE=0
+
+# Change to 1 to only make a local copy of remote content
+BACKUP_ONLY=0
+
+REMOTE_SSH_USER=root
+REMOTE_SSH_HOST=site.com
+
+REMOTE_MONGO_HOST=localhost
+REMOTE_MONGO_PORT=27017
+REMOTE_MONGO_DESTINY=/backup/temp
+
+LOCAL_MONGO_HOST=localhost:27017
