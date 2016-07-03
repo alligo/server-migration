@@ -1,4 +1,3 @@
-docker-server-migration.conf
-mongo-server-migration.conf
-mysql-server-migration.conf
+*.conf
 temp/
+/nbproject/
