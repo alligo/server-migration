@@ -1,0 +1,15 @@
+# Note: use UNIX line endings!
+# Copy this file to mysql-server-migration.conf and customize
+
+# Change to 1 to only make a local copy of remote content
+BACKUP_ONLY=0
+
+REMOTE_SSH_USER=root
+REMOTE_SSH_HOST=site.com
+
+REMOTE_MYSQL_USER=root
+REMOTE_MYSQL_PASSWORD=""
+REMOTE_MYSQL_HOST=127.0.0.1
+REMOTE_MYSQL_PORT=3306
+REMOTE_MYSQL_DATABASE=temp
+REMOTE_MYSQL_DESTINY=/.backup/test/
