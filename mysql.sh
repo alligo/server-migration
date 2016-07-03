@@ -4,14 +4,15 @@
 # @description This script make full MySQL/MariaDB dump and copy to local server
 #              and can just be used as make a local copy or migrate to local
 #              database server
-#              Copy mysql-server-migration.conf.dist to
-#              mysql-server-migration.conf and make your customizations first
+#              Copy mysql.conf.dist to mysql.conf and make your customizations
 #
 # @author      Bernardo Donadio <bcdonadio@alligo.com.br>
 # @author      Emerson Rocha Luiz <emerson@alligo.com.br>
-# @copyright   Public Domain
+# @copyright   Copyright (C) 2016 Alligo Ltda. All rights reserved.
 
-source ./mysql-server-migration.conf
+CONFIGURATION=${1:-"./mysql.conf"}
+
+source $CONFIGURATION
 #if [ `source ./mysql-server-migration.conf` != "0" ]; then
 #   echo "mysql-server-migration.conf not found. Aborting";
 #   exit;
