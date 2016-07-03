@@ -4,7 +4,7 @@
 # @description This script make full MongoDB dump and copy to local server
 #              and can just be used as make a local copy or migrate to local
 #              database server
-#              Copy mongo.conf.dist to mongo.conf and make your customizations
+#              Copy mongodb.conf.dist to mongodb.conf and make your customizations
 #
 # @author      Bernardo Donadio <bcdonadio@alligo.com.br>
 # @author      Emerson Rocha Luiz <emerson@alligo.com.br>
@@ -63,7 +63,6 @@ move_local2remote() {
 move_remote2local() {
   # @todo finish this
 }
-
 
 REMOTE_FULLPATH=$REMOTE_MONGO_DESTINY"/"${DATETIME}
 echo "REMOTE: mongodump to $REMOTE_FULLPATH folder"
